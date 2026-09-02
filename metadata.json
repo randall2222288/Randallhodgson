@@ -1,0 +1,6 @@
+{
+  "name": "Order Flow Trading Terminal",
+  "description": "Professional real-time trading terminal with AI Market Brain, Advanced Candle Intelligence, Multi-Timeframe Analytics, Order Flow Footprint, Delta, CVD, and Confluence Signals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

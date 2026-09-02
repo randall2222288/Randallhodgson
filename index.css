@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Terminal Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0b0e14;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #21262d;
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #30363d;
+}
+
+/* Ensure no text selection interference when clicking fast in terminal */
+.terminal-noselect {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
